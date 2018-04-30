@@ -71,7 +71,7 @@
   </div>
 
   <div class="hero-slider">
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpg');?>);">
+  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bus.jpeg');?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
         <h2 class="headline headline--medium t-center">Free Transportation</h2>
@@ -80,20 +80,20 @@
       </div>
     </div>
   </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/apples.jpg');?>);">
+  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/fit.jpeg');?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">An Apple a Day</h2>
-        <p class="t-center">Our dentistry program recommends eating apples.</p>
+        <h2 class="headline headline--medium t-center">Fitness life</h2>
+        <p class="t-center">Our fitness program recommends exercise to stay healthy.</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>
   </div>
-  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/bread.jpg');?>);">
+  <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/images/food.jpeg');?>);">
     <div class="hero-slider__interior container">
       <div class="hero-slider__overlay">
-        <h2 class="headline headline--medium t-center">Free Food</h2>
-        <p class="t-center">Fictional University offers lunch plans for those in need.</p>
+        <h2 class="headline headline--medium t-center">Food</h2>
+        <p class="t-center">onCampus offers affordatble lunch plans for those in need.</p>
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">Learn more</a></p>
       </div>
     </div>

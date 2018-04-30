@@ -3,7 +3,7 @@
   <div class="site-footer__inner container container--narrow">
     <div class="group">
       <div class="site-footer__col-one">
-        <h1 class="school-logo-text school-logo-text--alt-color"><a href="#">on<strong>Campus</strong></a></h1>
+        <h1 class="school-logo-text school-logo-text--alt-color"><a href="<?php echo site_url() ?>">on<strong>Campus</strong></a></h1>
         <p><a class="site-footer__link" href="#">555.555.5555</a></p>
       </div>
 
@@ -12,10 +12,10 @@
           <h3 class="headline headline--small">Explore</h3>
           <nav class="nav-list">
             <ul>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Lectures</a></li>
-              <li><a href="#">Events</a></li>
-              <li><a href="#">Campuses</a></li>
+              <li><a href="<?php echo site_url('/about') ?>">About</a></li>
+              <li><a href="<?php echo site_url('/lectures') ?>">Lectures</a></li>
+              <li><a href="<?php echo site_url('/events')?>">Events</a></li>
+              <li><a href="<?php echo site_url('/campuses')?>">Campuses</a></li>
             </ul>
           </nav>
         </div>
@@ -25,7 +25,7 @@
           <nav class="nav-list">
             <ul>
               <li><a href="#">Legal</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li><a href="<?php echo site_url('/privacy')?>">Privacy</a></li>
               <li><a href="#">Careers</a></li>
             </ul>
           </nav>
