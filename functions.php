@@ -10,6 +10,10 @@
 add_action('wp_enqueue_scripts', 'campus_files');
 
 function campus_features() {
+  register_nav_menu('navMenuLocation', 'main navigation location');
+  register_nav_menu('footerleftMenu', 'footer navigation left');
+  register_nav_menu('footerCenterMenu', 'footer navigation center');
+  register_nav_menu('footerRightMenu', 'footer navigation right');
   add_theme_support('title-tag');
 }
 
