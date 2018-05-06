@@ -18,3 +18,4 @@ function campus_features() {
 }
 
 add_action('after_setup_theme', 'campus_features');
+
